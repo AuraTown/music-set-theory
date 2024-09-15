@@ -1,11 +1,25 @@
 
 # Post-Tonal Theory Library
-A simple JavaScript library for post-tonal music theory analysis, focusing on pitch class set operations. The library contains a single module with the PitchClassSet class, which provides methods for constructing pitch class sets, finding normal order, prime form, inverting, transposing, and other related operations. This is a fork of [alexanderjmat](https://github.com/alexanderjmat/post-tonal_theory)'s library that I plan on expanding for [AuraTown music education tools](https://aura.town/).
+A simple JavaScript library for post-tonal music theory analysis, focusing on pitch class set operations. The library contains a single module with the PitchClassSet class, which provides methods for constructing pitch class sets, finding normal order, prime form, inverting, transposing, and other related operations. This is a fork of [alexanderjmat](https://github.com/alexanderjmat/post-tonal_theory)'s library that I plan on expanding and better documenting for [AuraTown music education tools](https://aura.town/).
+
+
+
 
 ## Installation
+```
+npm install AuraTown/music-set-theory
+```
+or in your package json:
+```
+"dependencies": {
+  "music-set-theory": "github:AuraTown/music-set-theory"
+}
+```
+
+## Dev
 To install the library, clone the repository and run npm install in the project folder.
 ```
-git clone https://github.com/alexanderjm/post-tonal_theory.git
+git clone https://github.com/AuraTown/music-set-theory.git
 cd post-tonal_theory
 npm install
 ```
